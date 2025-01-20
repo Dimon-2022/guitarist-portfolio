@@ -18,6 +18,8 @@ $circle-color: #488AEA
     height: 800px
     background: #F0F0F0
     padding-top: 16px
+    position: relative
+    overflow: hidden
     &__nav-container
         display: flex
         align-items: center
@@ -27,7 +29,14 @@ $circle-color: #488AEA
         display: flex
         flex-direction: row
         position: relative
-
+    &__first-elipse
+        position: absolute
+        top: 129px
+        right: 34px
+    &__second-elipse
+        position: absolute
+        right: -120px
+        top: 650px
 .nav-menu
     &__list
         display: flex
@@ -82,6 +91,7 @@ $circle-color: #488AEA
     position: absolute
     top: 150px
     left: 760px
+    z-index: 1
     &__icons-box
         margin-bottom: 1px
         padding-left: 10px
@@ -138,6 +148,26 @@ $circle-color: #488AEA
     &__text
         font-size: 16px
         
+.elipse
+    width: 194px
+    height: 194px
+    background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%)
+    border-radius: 150px
+    display: flex
+    justify-content: center
+    align-items: center
+    &_big
+        width: 282px
+        height: 282px
+    &__subtract
+        width: 129.33px
+        height: 129.33px
+        background-color: #F0F0F0
+        border-radius: 100px
+        &_big
+            width: 188px
+            height: 188px
+    
 
 
 
