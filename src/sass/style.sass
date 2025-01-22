@@ -13,7 +13,7 @@ $circle-color: #488AEA
 .container
     max-width: 1140px
     margin: 0 auto
-    border: 1px solid #F00
+    position: relative
 .main-section
     min-height: 800px
     background: #F0F0F0
@@ -172,14 +172,30 @@ $circle-color: #488AEA
     min-height: 700px
     &__container
         padding-top: 32px
+        position: relative
     &__title
         margin-bottom: 40px
     &__cards-box
         display: inline-flex
+        margin-bottom: 25px
     &__cards-item
         margin-right: 30px
         &:last-child
-            margin-right: 0            
+            margin-right: 0
+    &__icons-box
+        display: flex
+        justify-content: space-evenly
+    &__first-elipse
+        position: absolute
+        top: 80px
+        right: -60px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        top: 364px
+        left: -60px
+        z-index: -1
+          
 
 .cards-item
     width: 360px
@@ -203,6 +219,54 @@ $circle-color: #488AEA
         background-color: $color-orange
     &_blue
         background-color: $color-blue
+
+.icons-item
+    display: inline-flex
+    align-items: center
+    &__img
+        margin-right: 20px
+        width: 80px
+    &__text
+        font-size: 18px
+        span
+            font-size: 48px
+
+.third-section
+    position: relative
+    min-height: 640px
+    background-color: #f0f0f0
+    z-index: 0
+    overflow: hidden
+    &__container
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        padding-left: 167px
+        padding-top: 46px
+    &__right-wrapper
+        max-width: 480px
+    &__right-title
+        margin-bottom: 20px
+    &__text
+        margin-bottom: 30px
+    &__first-elipse
+        position: absolute
+        top: 140px
+        left: 110px
+        z-index: -1
+    &__figure
+        position: absolute
+        top: 249px
+        left: 15px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        right: -120px
+        top: -120px
+
+.title__hr_top
+    top: 75px
 
 
 
