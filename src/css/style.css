@@ -365,6 +365,23 @@ table {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "MontserraT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MontserraT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  font-family: "MontserraT";
+  font-weight: regular;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -516,6 +533,7 @@ table {
   background-color: #F28B64;
   color: white;
   font-size: 18px;
+  font-weight: bold;
   border-radius: 100px;
   width: 200px;
   height: 60px;
@@ -609,6 +627,7 @@ table {
 .cards-item__text {
   width: 280px;
   font-size: 36px;
+  font-weight: bold;
   text-align: center;
   transform: rotate(90deg);
   position: absolute;
@@ -635,6 +654,7 @@ table {
 }
 .icons-item__text span {
   font-size: 48px;
+  font-weight: bold;
 }
 
 .third-section {
@@ -681,4 +701,19 @@ table {
 
 .title__hr_top {
   top: 75px;
+}
+
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0;
+}
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer__title {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */

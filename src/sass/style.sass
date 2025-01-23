@@ -3,6 +3,22 @@
 *
     box-sizing: border-box
 
+@font-face
+    font-family: "MontserraT"
+    src: url("../fonts/Montserrat-Regular.ttf")
+    font-weight: regular
+    font-style: normal
+
+@font-face
+    font-family: "MontserraT"
+    src: url("../fonts/Montserrat-SemiBold.ttf")
+    font-weight: bold
+    font-style: normal
+
+html
+    font-family: "MontserraT"
+    font-weight: regular
+
 $color-blue: #5290EA
 $color-orange: #F28B64
 $color-grey: #E2E2E2
@@ -135,6 +151,7 @@ $circle-color: #488AEA
         background-color: $color-orange
         color: white
         font-size: 18px
+        font-weight: bold
         border-radius: 100px
         width: 200px
         height: 60px
@@ -210,6 +227,7 @@ $circle-color: #488AEA
     &__text
         width: 280px
         font-size: 36px
+        font-weight: bold
         text-align: center
         transform: rotate(90deg)
         position: absolute
@@ -230,6 +248,7 @@ $circle-color: #488AEA
         font-size: 18px
         span
             font-size: 48px
+            font-weight: bold
 
 .third-section
     position: relative
@@ -268,5 +287,17 @@ $circle-color: #488AEA
 .title__hr_top
     top: 75px
 
+.footer
+    &__img
+        position: absolute
+        left: -250px
+        bottom: 0
+    &__container
+        min-height: 272px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+    &__title
+        margin-bottom: 20px
 
 
