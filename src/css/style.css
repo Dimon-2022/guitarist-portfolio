@@ -859,6 +859,72 @@ html {
     width: 245px;
     height: 245px;
   }
+  .cards-item {
+    width: 220px;
+    height: 220px;
+  }
+  .cards-item__img {
+    height: 200px;
+  }
+  .cards-item__text {
+    font-size: 22px;
+    top: 92px;
+    right: -75px;
+  }
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  .icons-item__img {
+    width: 50px;
+  }
+  .second-section {
+    min-height: 380px;
+  }
+  .second-section__container {
+    padding-top: 10px;
+  }
+  .second-section__title {
+    margin-bottom: 15px;
+  }
+  .second-section__cards-box {
+    margin-bottom: 10px;
+  }
+  .second-section__first-elipse {
+    top: 5px;
+    right: -25px;
+  }
+  .second-section__second-elipse {
+    top: 295px;
+    left: -93px;
+  }
+  .third-section {
+    min-height: 560px;
+  }
+  .third-section__container {
+    padding: 20px 0 0 45px;
+  }
+  .third-section__right-wrapper {
+    max-width: 420px;
+  }
+  .third-section__text {
+    margin-bottom: 10px;
+  }
+  .third-section .title__hr_top {
+    top: 45px;
+  }
+  .footer__container {
+    min-height: 220px;
+  }
+  .footer__img {
+    width: 500px;
+    top: 0;
+  }
+  .footer__wrapper {
+    padding-right: 70px;
+  }
+  .footer .title__hr_top {
+    top: 45px;
+  }
 }
 @media (max-width: 767px) {
   .container {
