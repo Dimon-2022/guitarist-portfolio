@@ -368,12 +368,14 @@ table {
 @font-face {
   font-family: "MontserraT";
   src: url("../fonts/Montserrat-Regular.ttf");
+  font-display: swap;
   font-weight: regular;
   font-style: normal;
 }
 @font-face {
   font-family: "MontserraT";
   src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-display: swap;
   font-weight: bold;
   font-style: normal;
 }
@@ -958,6 +960,7 @@ html {
     right: 30px;
     height: 14px;
     z-index: 30;
+    position: fixed;
   }
   .gamburger span {
     height: 2px;
